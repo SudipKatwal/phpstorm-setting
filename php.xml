@@ -384,8 +384,8 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 7.1">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.1" path_separator=":" version="7.1.5-1+deb.sury.org~trusty+2">
-          <additional_php_ini>/etc/php/7.1/cli/conf.d/10-mysqlnd.ini, /etc/php/7.1/cli/conf.d/10-opcache.ini, /etc/php/7.1/cli/conf.d/10-pdo.ini, /etc/php/7.1/cli/conf.d/15-xml.ini, /etc/php/7.1/cli/conf.d/20-bz2.ini, /etc/php/7.1/cli/conf.d/20-calendar.ini, /etc/php/7.1/cli/conf.d/20-ctype.ini, /etc/php/7.1/cli/conf.d/20-curl.ini, /etc/php/7.1/cli/conf.d/20-dom.ini, /etc/php/7.1/cli/conf.d/20-exif.ini, /etc/php/7.1/cli/conf.d/20-fileinfo.ini, /etc/php/7.1/cli/conf.d/20-ftp.ini, /etc/php/7.1/cli/conf.d/20-gd.ini, /etc/php/7.1/cli/conf.d/20-gettext.ini, /etc/php/7.1/cli/conf.d/20-iconv.ini, /etc/php/7.1/cli/conf.d/20-json.ini, /etc/php/7.1/cli/conf.d/20-mbstring.ini, /etc/php/7.1/cli/conf.d/20-mcrypt.ini, /etc/php/7.1/cli/conf.d/20-mysqli.ini, /etc/php/7.1/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.1/cli/conf.d/20-pdo_pgsql.ini, /etc/php/7.1/cli/conf.d/20-pgsql.ini, /etc/php/7.1/cli/conf.d/20-phar.ini, /etc/php/7.1/cli/conf.d/20-posix.ini, /etc/php/7.1/cli/conf.d/20-readline.ini, /etc/php/7.1/cli/conf.d/20-shmop.ini, /etc/php/7.1/cli/conf.d/20-simplexml.ini, /etc/php/7.1/cli/conf.d/20-sockets.ini, /etc/php/7.1/cli/conf.d/20-sysvmsg.ini, /etc/php/7.1/cli/conf.d/20-sysvsem.ini, /etc/php/7.1/cli/conf.d/20-sysvshm.ini, /etc/php/7.1/cli/conf.d/20-tokenizer.ini, /etc/php/7.1/cli/conf.d/20-wddx.ini, /etc/php/7.1/cli/conf.d/20-xmlreader.ini, /etc/php/7.1/cli/conf.d/20-xmlwriter.ini, /etc/php/7.1/cli/conf.d/20-xsl.ini, /etc/php/7.1/cli/conf.d/20-zip.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.1" path_separator=":" version="7.1.6-2~ubuntu14.04.1+deb.sury.org+1">
+          <additional_php_ini>/etc/php/7.1/cli/conf.d/10-opcache.ini, /etc/php/7.1/cli/conf.d/10-pdo.ini, /etc/php/7.1/cli/conf.d/15-xml.ini, /etc/php/7.1/cli/conf.d/20-bz2.ini, /etc/php/7.1/cli/conf.d/20-calendar.ini, /etc/php/7.1/cli/conf.d/20-ctype.ini, /etc/php/7.1/cli/conf.d/20-curl.ini, /etc/php/7.1/cli/conf.d/20-dom.ini, /etc/php/7.1/cli/conf.d/20-exif.ini, /etc/php/7.1/cli/conf.d/20-fileinfo.ini, /etc/php/7.1/cli/conf.d/20-ftp.ini, /etc/php/7.1/cli/conf.d/20-gd.ini, /etc/php/7.1/cli/conf.d/20-gettext.ini, /etc/php/7.1/cli/conf.d/20-iconv.ini, /etc/php/7.1/cli/conf.d/20-json.ini, /etc/php/7.1/cli/conf.d/20-mbstring.ini, /etc/php/7.1/cli/conf.d/20-mcrypt.ini, /etc/php/7.1/cli/conf.d/20-pdo_pgsql.ini, /etc/php/7.1/cli/conf.d/20-pgsql.ini, /etc/php/7.1/cli/conf.d/20-phar.ini, /etc/php/7.1/cli/conf.d/20-posix.ini, /etc/php/7.1/cli/conf.d/20-readline.ini, /etc/php/7.1/cli/conf.d/20-shmop.ini, /etc/php/7.1/cli/conf.d/20-simplexml.ini, /etc/php/7.1/cli/conf.d/20-sockets.ini, /etc/php/7.1/cli/conf.d/20-sysvmsg.ini, /etc/php/7.1/cli/conf.d/20-sysvsem.ini, /etc/php/7.1/cli/conf.d/20-sysvshm.ini, /etc/php/7.1/cli/conf.d/20-tokenizer.ini, /etc/php/7.1/cli/conf.d/20-wddx.ini, /etc/php/7.1/cli/conf.d/20-xmlreader.ini, /etc/php/7.1/cli/conf.d/20-xmlwriter.ini, /etc/php/7.1/cli/conf.d/20-xsl.ini, /etc/php/7.1/cli/conf.d/20-zip.ini</additional_php_ini>
           <configuration_file>/etc/php/7.1/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -481,28 +481,6 @@
             <configuration_option name="mcrypt.algorithms_dir" value="" />
             <configuration_option name="mcrypt.modes_dir" value="" />
             <configuration_option name="memory_limit" value="-1" />
-            <configuration_option name="mysqli.allow_local_infile" value="1" />
-            <configuration_option name="mysqli.allow_persistent" value="1" />
-            <configuration_option name="mysqli.default_host" value="" />
-            <configuration_option name="mysqli.default_port" value="3306" />
-            <configuration_option name="mysqli.default_pw" value="" />
-            <configuration_option name="mysqli.default_socket" value="" />
-            <configuration_option name="mysqli.default_user" value="" />
-            <configuration_option name="mysqli.max_links" value="-1" />
-            <configuration_option name="mysqli.max_persistent" value="-1" />
-            <configuration_option name="mysqli.reconnect" value="" />
-            <configuration_option name="mysqli.rollback_on_cached_plink" value="0" />
-            <configuration_option name="mysqlnd.collect_memory_statistics" value="" />
-            <configuration_option name="mysqlnd.collect_statistics" value="1" />
-            <configuration_option name="mysqlnd.debug" value="" />
-            <configuration_option name="mysqlnd.fetch_data_copy" value="0" />
-            <configuration_option name="mysqlnd.log_mask" value="0" />
-            <configuration_option name="mysqlnd.mempool_default_size" value="16000" />
-            <configuration_option name="mysqlnd.net_cmd_buffer_size" value="4096" />
-            <configuration_option name="mysqlnd.net_read_buffer_size" value="32768" />
-            <configuration_option name="mysqlnd.net_read_timeout" value="31536000" />
-            <configuration_option name="mysqlnd.sha256_server_public_key" value="" />
-            <configuration_option name="mysqlnd.trace_alloc" value="" />
             <configuration_option name="opcache.blacklist_filename" value="" />
             <configuration_option name="opcache.consistency_checks" value="0" />
             <configuration_option name="opcache.dups_fix" value="0" />
@@ -546,7 +524,6 @@
             <configuration_option name="pcre.backtrack_limit" value="1000000" />
             <configuration_option name="pcre.jit" value="1" />
             <configuration_option name="pcre.recursion_limit" value="100000" />
-            <configuration_option name="pdo_mysql.default_socket" value="/var/run/mysqld/mysqld.sock" />
             <configuration_option name="pgsql.allow_persistent" value="1" />
             <configuration_option name="pgsql.auto_reset_persistent" value="" />
             <configuration_option name="pgsql.ignore_notice" value="0" />
@@ -652,12 +629,9 @@
             <extension name="libxml" />
             <extension name="mbstring" />
             <extension name="mcrypt" />
-            <extension name="mysqli" />
-            <extension name="mysqlnd" />
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
-            <extension name="pdo_mysql" />
             <extension name="pdo_pgsql" />
             <extension name="pgsql" />
             <extension name="posix" />
