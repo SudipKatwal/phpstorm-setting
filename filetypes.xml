@@ -4,7 +4,6 @@
     <extensionMap>
       <mapping ext="py" type="Native" />
       <mapping pattern="temp" type="PLAIN_TEXT" />
-      <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="pmis-db" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".env.docker" type="PLAIN_TEXT" />
